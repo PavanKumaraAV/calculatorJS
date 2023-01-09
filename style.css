@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.calcu__outside__container {
+    display: flex;
+    justify-content: center;
+}
+
+.calcu__body__container {
+
+    border:1px solid #E9E8EE;
+    background-color: #FEFEFE;
+    text-align: center;
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 25px;
+}
+
+.calcu__text__container{
+    width:100%;
+}
+
+
+.calcu__digits__container{
+    display: flex;
+
+}
+
+.calcu__digits {
+    padding:5px;
+    border: 0.5px solid #E9E8EE;
+    font-weight: 400;
+}
+
+.calcu__text {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.operator {
+    background-color: #F6F3FE;
+    color: #502CC3;
+}
+
+.assign {
+    background-color:#502CC3;
+    color:#F6F3FE;
+
+}
+
+#number {
+    width:100%;
+}
